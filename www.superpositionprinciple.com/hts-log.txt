@@ -1,0 +1,22 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 18 Feb 2025 11:48:21 at http://sites.google.com/view/superprinciple +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://sites.google.com/view/superprinciple -O1 "C:\Users\ITpunct.ro\Desktop\Files\MySite\www.superpositionprinciple.com" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+11:48:51	Error: 	"Not Found" (404) at link https://sites.google.com/view/superprinciple/POST (from https://sites.google.com/view/superprinciple/main)
+11:48:51	Error: 	"Not Found" (404) at link https://sites.google.com/view/superprinciple/"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1896608556&color=%236298c0&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true%22></iframe><div (from https://sites.google.com/view/superprinciple/strike-sortie)
+11:48:51	Error: 	"Not Found" (404) at link https://sites.google.com/view/superprinciple/"https://soundcloud.com/mykola-poroshyn" (from https://sites.google.com/view/superprinciple/strike-sortie)
+11:48:51	Error: 	"Not Found" (404) at link https://sites.google.com/view/superprinciple/"https://soundcloud.com/mykola-poroshyn/final-assault" (from https://sites.google.com/view/superprinciple/strike-sortie)
+11:48:51	Error: 	"Not Found" (404) at link https://sites.google.com/view/superprinciple/"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1896933789&color=%236298c0&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true%22></iframe><div (from https://sites.google.com/view/superprinciple/strike-sortie)
+11:48:51	Warning: 	Retry after error -4 (Connect Error) at link https://sites.google.com/view/superprinciple/"https://soundcloud.com/mykola-poroshyn/steel-and-valor" (from https://sites.google.com/view/superprinciple/strike-sortie)
+11:48:51	Error: 	"Not Found" (404) at link https://sites.google.com/view/superprinciple/"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1896930978&color=%236298c0&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true%22></iframe><div (from https://sites.google.com/view/superprinciple/strike-sortie)
+11:48:51	Error: 	"Not Found" (404) at link https://sites.google.com/view/superprinciple/"https://soundcloud.com/mykola-poroshyn/silent-horizon" (from https://sites.google.com/view/superprinciple/strike-sortie)
+11:48:51	Error: 	"Not Found" (404) at link https://sites.google.com/view/superprinciple/"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1896633642&color=%236298c0&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true%22></iframe><div (from https://sites.google.com/view/superprinciple/strike-sortie)
+11:48:51	Error: 	"Not Found" (404) at link https://sites.google.com/view/superprinciple/"https://soundcloud.com/mykola-poroshyn/harmony-of-the-sands" (from https://sites.google.com/view/superprinciple/strike-sortie)
+11:48:52	Error: 	"Not Found" (404) at link https://sites.google.com/view/superprinciple/"https://soundcloud.com/mykola-poroshyn/steel-and-valor" (from https://sites.google.com/view/superprinciple/strike-sortie)
+
+HTTrack Website Copier/3.49-2 mirror complete in 31 seconds : 17 links scanned, 5 files written (590885 bytes overall) [563881 bytes received at 18189 bytes/sec], 945142 bytes transferred using HTTP compression in 14 files, ratio 23%
+(10 errors, 1 warnings, 0 messages)
