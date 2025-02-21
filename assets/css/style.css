@@ -37,12 +37,12 @@ header {
 
 #about {
     text-align: center;
-    padding: 50px 80px 0 80px;
+    padding: 50px 50px 0 50px;
 }
 
 @media (min-width: 768px) {
     #about {
-        padding: 50px 180px 0 180px;
+        padding: 50px 220px 0 220px;
     }
 }
 
@@ -100,7 +100,8 @@ header {
 
 .navbar-logo span {
     font-family: 'Raleway', Arial, sans-serif;
-    font-size: 1.1em; /* Мобильные устройства */
+    font-size: 1.1em;
+    /* Мобильные устройства */
     color: white;
 }
 
@@ -110,34 +111,42 @@ header {
 }
 
 .navbar-links a {
-    color: #a9a9a9; /* Слегка сероватый цвет */
-    text-decoration: none; /* Убираем подчёркивание */
-    font-size: 0.9em; /* Мобильные устройства */
-    transition: color 0.3s ease; /* Плавное изменение цвета */
+    color: #a9a9a9;
+    /* Слегка сероватый цвет */
+    text-decoration: none;
+    /* Убираем подчёркивание */
+    font-size: 0.9em;
+    /* Мобильные устройства */
+    transition: color 0.3s ease;
+    /* Плавное изменение цвета */
 }
 
 .navbar-links a:hover {
-    color: white; /* Белый цвет при наведении */
-    text-decoration: none; /* Убираем подчёркивание */
+    color: white;
+    /* Белый цвет при наведении */
+    text-decoration: none;
+    /* Убираем подчёркивание */
 }
 
 /* Медиазапрос для ПК */
 @media (min-width: 768px) {
     .navbar-logo span {
-        font-size: 1.3em; 
+        font-size: 1.3em;
     }
 
     .navbar-links a {
-        font-size: 1.0em; 
+        font-size: 1.0em;
     }
 }
+
 /*Нижний колунтитул*/
+/* Стили для футера */
 footer {
     background-color: black;
     color: white;
     padding: 20px;
     border-top: 1px solid #333;
-    margin-top: 30px; /* Отступ сверху */
+    margin-top: 40px;
 }
 
 .footer-content {
@@ -167,4 +176,33 @@ footer {
 
 .footer-right img:hover {
     opacity: 0.7;
+}
+
+/* Медиазапрос для мобильных устройств */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        /* Вертикальное расположение */
+        text-align: center;
+        /* Центрируем текст */
+        gap: 20px;
+        /* Расстояние между блоками */
+    }
+
+    .footer-left p {
+        font-size: 0.8em;
+        /* Уменьшаем размер текста */
+    }
+
+    .footer-right {
+        flex-wrap: wrap;
+        /* Иконки переносятся на новую строку, если не помещаются */
+        justify-content: center;
+        /* Центрируем иконки */
+    }
+
+    .footer-right img {
+        width: 40px;
+        /* Уменьшаем размер иконок */
+    }
 }
