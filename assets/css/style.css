@@ -206,3 +206,71 @@ footer {
         /* Уменьшаем размер иконок */
     }
 }
+
+/* Контейнер для Privacy Policy */
+.privacy-container {
+    max-width: 900px;
+    /* Ограниченная ширина для удобного чтения */
+    margin: 50px auto;
+    /* Центрирование и отступы */
+    padding: 40px;
+}
+
+/* Заголовки */
+.privacy-container h1 {
+    font-size: 32px;
+    color: #fff;
+    /* Белый текст */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.privacy-container h2 {
+    font-size: 24px;
+    color: #ddd;
+    /* Светло-серый для контраста */
+    margin-top: 30px;
+}
+
+/* Обычный текст */
+.privacy-container p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #ccc;
+    /* Светло-серый для лучшего чтения */
+    margin-bottom: 15px;
+}
+
+/* Ссылки */
+.privacy-container a {
+    color: #ccc;
+    /* Такой же цвет, как у обычного текста */
+    text-decoration: none;
+    /* Убираем нижнее подчёркивание */
+    font-weight: normal;
+    transition: color 0.2s ease-in-out;
+}
+
+.privacy-container a:hover {
+    color: #fff;
+    /* Становится белым при наведении */
+}
+
+/* Дополнительные стили для адаптивности */
+@media (max-width: 768px) {
+    .privacy-container {
+        padding: 20px;
+    }
+
+    .privacy-container h1 {
+        font-size: 28px;
+    }
+
+    .privacy-container h2 {
+        font-size: 22px;
+    }
+
+    .privacy-container p {
+        font-size: 16px;
+    }
+}
