@@ -243,16 +243,16 @@ footer {
 
 /* Ссылки */
 .privacy-container a {
-    color: #ccc;
+    color: #2593c6;
     /* Такой же цвет, как у обычного текста */
     text-decoration: none;
     /* Убираем нижнее подчёркивание */
     font-weight: normal;
-    transition: color 0.2s ease-in-out;
+    transition: color 0.1s ease-in-out;
 }
 
 .privacy-container a:hover {
-    color: #fff;
+    color: #ccc;
     /* Становится белым при наведении */
 }
 
